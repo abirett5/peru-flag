@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: lightseagreen;
+}
+
+.flag {
+    position: relative;
+    width: 300px;
+    height: 200px;
+/*    border: 1px solid #000;*/
+}
+
+.box {
+    position: absolute;
+    width: 33.33%;
+    height: 100%;
+}
+
+.red-one {
+    background-color: red;
+}
+
+.white {
+    transform: translateX(100%);
+    background-color: #fff;
+}
+
+.red-two {
+    transform: translateX(200%);
+    background-color: red;
+}
